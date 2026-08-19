@@ -9,15 +9,14 @@
  
 | Instance Name | Current Type | vCPUs | RAM (GB) | Avg CPU % | Avg Mem % | Recommended Type | Monthly Savings |
 |---------------|-------------|-------|----------|-----------|-----------|-----------------|----------------|
-| web-server | t3.medium | 2 | 4 | 65% | 55% | t3.medium (keep) | $0.00 |
-| api-server | t3.large | 2 | 8 | 2% | 12% | t3.small | $26.28 |
-| data-processor | m5.xlarge | 4 | 16 | 2% | 8% | t3.medium | $107.31 |
+| web-server | t3.small | 2 | 4 | 98.85% | 28.1% | t3.medium (keep) | $0.00 |
+| api-server | c7i-flex.large | 2 | 8 | 0.46% | 6.17% | t3.small | $26.28 |
+| data-processor | m7i-flex.large | 4 | 16 | 0.51% | 2.5% | t3.medium | $107.31 |
  
 ## Pricing Reference (us-east-1, On-Demand)
 - t3.small: $0.0208/hr → ~$15.17/mo
-- t3.medium: $0.0416/hr → ~$30.37/mo
-- t3.large: $0.0832/hr → ~$60.74/mo
-- m5.xlarge: $0.192/hr → ~$140.16/mo
+- c7i-flex.large: $0.0832/hr → ~$60.74/mo
+- m7i-flex.large: $0.192/hr → ~$140.16/mo
  
 ## Total Projected Monthly Savings: $133.59
  

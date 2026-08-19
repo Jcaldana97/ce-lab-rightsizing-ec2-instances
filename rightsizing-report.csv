@@ -1,0 +1,4 @@
+InstanceId,Name,Type,vCPUs,AvgCPU%,Status
+i-0c0a50e3a319193fd,rightsizing-web-server,t3.small,2,29.819212346968357,RIGHT_SIZED
+i-0b8ed8845955f8216,rightsizing-api-server,t3.micro,2,0.7674997880393613,OVERSIZED
+i-065d157424b7f0946,rightsizing-data-processor,t3.small,2,1.165733990192296,OVERSIZED

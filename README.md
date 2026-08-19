@@ -13,6 +13,14 @@
 - Projected monthly savings: $133.59
  
 ## Screenshots
-- cloudwatch-metrics.png
-- rightsizing-report-table.png
-- post-resize-verification.png
+
+### CloudWatch Metrics
+
+![CloudWatch Metrics](screenshots/cloudwatch-metrics.png)
+
+### Righsizing Report Table
+![Righsizing Report Table](screenshots/rightsizing-report-table.png)
+
+### Post Resize Verification
+
+![Post Resize Verification](screenshots/post-resize-verification.png)
